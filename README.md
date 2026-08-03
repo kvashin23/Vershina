@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>О нас — Вершина, Кисловодск</title>
+<title>Вершина — экскурсии по Кавказу из Кисловодска</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -27,20 +27,46 @@
   </div>
 </header>
 
-<section class="page-hero">
-  <div class="wrap">
-    <div class="breadcrumb"><a href="index.html">Главная</a> / О нас</div>
-    <div class="eyebrow">Турфирма «Вершина»</div>
-    <h1>Мы показываем Кавказ таким, каким его любят местные</h1>
-    <p>Экскурсии по Кавказским Минеральным Водам и всему Северному Кавказу — для тех, кто хочет увидеть регион без суеты, но с полным погружением в природу, историю и культуру.</p>
-  </div>
-</section>
-
-<section class="routes" style="padding-top:64px;">
-  <div class="wrap">
-    <div class="section-head">
-      <h2 style="max-width:28ch;">Открываем гостям памятники природы и архитектуры, быт народов Кавказа</h2>
-      <p style="max-width:40ch;color:var(--ink-70);margin:0;">Мы проводим и автобусные групповые программы, и индивидуальные туры из Кисловодска и других городов КМВ. Каждый маршрут собран так, чтобы вы увидели максимум — от легендарных горных ландшафтов до древних святынь и этнокультурных объектов.</p>
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Турфирма «Вершина»</div>
+      <h1>Кавказ,<br>в который <em>невозможно</em><br>не влюбиться</h1>
+      <p class="lead">Автобусные и индивидуальные экскурсии по Кавказским Минеральным Водам и Северному Кавказу — от водопадов и голубых озёр КБР до вершины Эльбруса.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="excursions.html">Выбрать экскурсию</a>
+        <a class="btn btn-ghost" href="tel:+79283045400">+7 (928) 304-54-00</a>
+      </div>
+      <div class="hero-days" id="hero-days">
+        <span class="lbl">День поездки:</span>
+        <button class="day-chip" data-day="пн">Пн</button>
+        <button class="day-chip" data-day="вт">Вт</button>
+        <button class="day-chip" data-day="ср">Ср</button>
+        <button class="day-chip" data-day="чт">Чт</button>
+        <button class="day-chip" data-day="пт">Пт</button>
+        <button class="day-chip" data-day="сб">Сб</button>
+        <button class="day-chip" data-day="вс">Вс</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F2E4C8"/>
+            <stop offset="45%" stop-color="#274B44"/>
+            <stop offset="100%" stop-color="#0F211C"/>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="500" fill="url(#sky)"/>
+        <polygon points="0,320 60,210 120,280 190,120 260,260 330,190 400,300 400,500 0,500" fill="#0F211C" opacity="0.55"/>
+        <polygon points="0,380 90,260 170,330 240,190 320,310 400,240 400,500 0,500" fill="#132E27" opacity="0.75"/>
+        <polygon points="0,430 110,330 210,400 300,300 400,380 400,500 0,500" fill="#0B1E19"/>
+        <circle cx="320" cy="90" r="34" fill="#E8C286" opacity="0.9"/>
+      </svg>
+      <div class="badge">
+        <div class="num">100 000+</div>
+        <div class="cap">туристов уже открыли для себя Кавказ вместе с нами</div>
+      </div>
     </div>
   </div>
 </section>
@@ -49,15 +75,15 @@
   <div class="wrap">
     <div class="ridge-head">
       <div>
-        <div class="eyebrow">О нас в цифрах</div>
-        <h2>Кавказ измеряется не только километрами</h2>
+        <div class="eyebrow">Маршруты от 260 до 3847 м</div>
+        <h2>Каждая поездка — это перепад высот, климата и характера Кавказа</h2>
       </div>
     </div>
     <div class="stat-row">
-      <div class="stat"><div class="num">100 000+</div><div class="cap">туристов проехали с нами по Кавказу</div></div>
-      <div class="stat"><div class="num">50+</div><div class="cap">разработанных экскурсионных маршрутов</div></div>
-      <div class="stat"><div class="num">30 000+</div><div class="cap">километров дорог Северного Кавказа</div></div>
-      <div class="stat"><div class="num">260–3847 м</div><div class="cap">перепад высот наших маршрутов — от курортов КМВ до Приэльбрусья</div></div>
+      <div class="stat"><div class="num">100 000+</div><div class="cap">туристов</div></div>
+      <div class="stat"><div class="num">50+</div><div class="cap">экскурсионных маршрутов</div></div>
+      <div class="stat"><div class="num">30 000+</div><div class="cap">километров дорог Кавказа</div></div>
+      <div class="stat"><div class="num">260–3847 м</div><div class="cap">от курортов КМВ до Приэльбрусья</div></div>
     </div>
   </div>
   <svg class="line" viewBox="0 0 1200 90" preserveAspectRatio="none">
@@ -66,12 +92,33 @@
   </svg>
 </section>
 
+<section class="routes" id="routes">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Популярные направления</h2>
+      <a class="btn btn-ghost" href="excursions.html">Все маршруты →</a>
+    </div>
+    <div class="filter-row" data-day-filter>
+      <button class="day-chip all active" data-day="все">Все дни</button>
+      <button class="day-chip" data-day="пн">Пн</button>
+      <button class="day-chip" data-day="вт">Вт</button>
+      <button class="day-chip" data-day="ср">Ср</button>
+      <button class="day-chip" data-day="чт">Чт</button>
+      <button class="day-chip" data-day="пт">Пт</button>
+      <button class="day-chip" data-day="сб">Сб</button>
+      <button class="day-chip" data-day="вс">Вс</button>
+    </div>
+    <div class="routes-grid" id="routes-grid" data-limit="8"></div>
+    <div class="routes-more"><a class="btn btn-ghost" href="excursions.html">Смотреть все маршруты</a></div>
+  </div>
+</section>
+
 <section class="why" id="why">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="eyebrow" style="color:var(--gold-dim);">Мы делаем путешествия доступными</div>
-        <h2>Отдых должен быть комфортным и честным</h2>
+        <div class="eyebrow" style="color:var(--gold-dim);">Почему с нами</div>
+        <h2>Мы делаем путешествия честными</h2>
       </div>
     </div>
     <div class="why-grid">
@@ -79,32 +126,6 @@
       <div class="why-card"><div class="idx">02</div><h3>Бесплатно для участников СВО</h3><p>Одна короткая экскурсия предоставляется бесплатно — в знак уважения и благодарности.</p></div>
       <div class="why-card"><div class="idx">03</div><h3>Доставка билетов</h3><p>По Кисловодску привозим билеты бесплатно — никуда ехать не нужно.</p></div>
       <div class="why-card"><div class="idx">04</div><h3>Гарантия программы</h3><p>Если объект закрыт из-за форс-мажора, заменяем маршрут — без сокращения программы и объёма экскурсии.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="timeline">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Как устроена наша работа</h2>
-    </div>
-    <div class="timeline-list">
-      <div class="timeline-row">
-        <div class="tyear">Автобусы</div>
-        <p>Комфортные автобусы с мягкими креслами, чистым салоном и кондиционером — каждая экскурсия начинается с удобства и безопасности. За рулём — опытные водители, которые знают горные дороги Кавказа.</p>
-      </div>
-      <div class="timeline-row">
-        <div class="tyear">Маршруты</div>
-        <p>Каждое направление раскрывает свой характер: водопады и озёра КБР, древняя архитектура Архыза и Куртаты, мощь Эльбруса, мягкие курортные ландшафты КМВ, величественные ущелья и горные перевалы Северного Кавказа.</p>
-      </div>
-      <div class="timeline-row">
-        <div class="tyear">Гибкость</div>
-        <p>Если объект посещения закрыт из-за форс-мажора, мы заменяем его на равноценный — без сокращения программы и объёма экскурсии.</p>
-      </div>
-      <div class="timeline-row">
-        <div class="tyear">Забота</div>
-        <p>Скидки для детей, бесплатная короткая экскурсия для участников СВО и бесплатная доставка билетов по Кисловодску — цена должна отражать качество, которое заслужил гость.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -124,9 +145,65 @@
   </div>
 </section>
 
+<section class="request" id="request">
+  <div class="wrap request-grid">
+    <div class="request-copy">
+      <div class="eyebrow">Заявка на экскурсию</div>
+      <h2>Оставьте заявку — перезвоним в течение 15 минут</h2>
+      <p>Расскажем про свободные места, время отправления и заберём с ближайшей к вам остановки по Кисловодску.</p>
+      <ul class="request-points">
+        <li>Бесплатная доставка билетов по Кисловодску</li>
+        <li>Скидки для детей</li>
+        <li>Замена маршрута при форс-мажоре — без потери программы</li>
+      </ul>
+      <a class="phone-link" href="tel:+79283045400" style="margin-top:22px;">+7 (928) 304-54-00<span>Ежедневно, с 8:00 до 20:00</span></a>
+    </div>
+    <form class="request-form" id="request-form">
+      <div class="f-row">
+        <label>Ваше имя
+          <input type="text" name="name" placeholder="Как к вам обращаться" required>
+        </label>
+      </div>
+      <div class="f-row">
+        <label>Телефон
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+        </label>
+      </div>
+      <div class="f-row">
+        <label>Экскурсия
+          <select name="route" class="request-route-select">
+            <option value="">Выберите маршрут</option>
+          </select>
+        </label>
+      </div>
+      <div class="f-row two">
+        <label>Дата поездки
+          <input type="date" name="date">
+        </label>
+        <label>Кол-во человек
+          <input type="number" name="people" min="1" value="2">
+        </label>
+      </div>
+      <div class="f-row">
+        <label>Комментарий
+          <textarea name="comment" rows="2" placeholder="Например: нужен детский тариф"></textarea>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;">Отправить заявку</button>
+      <p class="f-note">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+      <p class="f-error">Не удалось отправить заявку. Позвоните нам, пожалуйста: <a href="tel:+79283045400">+7 (928) 304-54-00</a></p>
+      <div class="f-success">
+        <div class="f-success-icon">✓</div>
+        <h3>Заявка принята</h3>
+        <p>Мы перезвоним вам в ближайшее время. Если срочно — звоните сами: <a href="tel:+79283045400">+7 (928) 304-54-00</a></p>
+      </div>
+    </form>
+  </div>
+</section>
+
 <div class="cta-banner">
-  <h2>Готовы показать вам Кавказ, в который невозможно не влюбиться</h2>
-  <a class="btn btn-primary" href="excursions.html">Смотреть маршруты</a>
+  <h2>Соберём для вас маршрут на выходные — позвоните нам</h2>
+  <a class="btn btn-primary" href="tel:+79283045400">+7 (928) 304-54-00</a>
 </div>
 
 <footer id="contacts-footer">
