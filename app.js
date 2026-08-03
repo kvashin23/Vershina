@@ -156,3 +156,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         if (!res.ok) throw new Error('bad status');
         if (success) success.classList.add('show');
+        form.reset();
+      } catch(err){
+        if (errorBox){
+          errorBox.classList.add('show');
+        }
+      } finally {
+        if (submitBtn){ submitBtn.disabled = false; submitBtn.textContent = 'Отправить заявку'; }
+      }
+    });
+  });
+
+});
